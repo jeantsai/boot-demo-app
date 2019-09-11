@@ -1,0 +1,23 @@
+#
+
+## Greeting
+
+### Greeting
+GET http://localhost:8080/greeting?name=Spring
+
+## Info
+
+### Get Info
+GET http://localhost:8080/info?arg1=0&arg2=1
+
+### Get Info through proxy
+GET http://localhost:8080/info?arg1=0&arg2=1
+Host: www.baidu.com
+Proxy-Connection: keep-alive
+
+###
+
+
+
+
+
